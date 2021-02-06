@@ -2,4 +2,4 @@
 
 
 cd into the json-server folder
-run #npm start
+run "npm start"
