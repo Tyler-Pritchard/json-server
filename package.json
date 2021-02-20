@@ -5,7 +5,7 @@
   "description": "generic json server",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
