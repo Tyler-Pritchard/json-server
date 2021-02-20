@@ -2,10 +2,13 @@
   "name": "jsonserver",
   "version": "1.0.0",
   "description": "generic json server",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "npx json-server -H 0.0.0.0 --watch db.json -p 3001 -d https://jsonsever.herokuapp.com/"
+    "start": "node server.js"
   },
   "author": "tyler",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
 }
