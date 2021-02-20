@@ -1,10 +1,13 @@
 {
   "name": "jsonserver",
+  "homepage": "https://github.com/tyler-pritchard/json-server",
   "version": "1.0.0",
   "description": "generic json server",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "tyler",
   "license": "ISC",
